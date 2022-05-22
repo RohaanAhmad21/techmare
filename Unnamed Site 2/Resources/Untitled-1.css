@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url('https://th.bing.com/th/id/R.74595b7acef10f08cd81d9d520dde884?rik=bJiLcEeBc7X1Xg&pid=ImgRaw&r=0');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+    color: aliceblue		
+}
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+ol {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+tr {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+img {
+	width: 50%;
+}
+#ins {
+	font-weight: bold;
+}
+.first {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.first li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: aqua;
+	opacity: .9;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+.first li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+.first li a:hover {
+	background-color: darksalmon;
+}
+.first li .first li {
+	display: none;
+}
+.first li:hover .first li {
+	display: block;
+}
